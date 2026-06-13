@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+.contenedor {
+  background-color: #1e1e1e;
+  color: white;
+  min-height: 100vh;
+}
+.proyecto a, .proyectos a {
+  margin-right: 10px;
+  color: #60a5fa;
+  text-decoration: none;
+}
+.foto {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+.badge-disponible {
+  border: 1px solid #4ade80;
+  color: #4ade80;
+  padding: 2px 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  margin-left: 10px;
+}
+
+.badge {
+  padding: 5px 12px;
+  border-radius: 20px;
+  margin: 4px;
+  display: inline-block;
+}
+
+.azul  { border: 1px solid #60a5fa; color: #60a5fa; }
+.verde { border: 1px solid #4ade80; color: #4ade80; }
+.morado {border: 1px solid #a55ba5; color: #a55ba5;}
+.rojo  { border: 1px solid #DC143C; color: #DC143C; }
+.naranja { border: 1px solid #fb923c; color: #fb923c; }
